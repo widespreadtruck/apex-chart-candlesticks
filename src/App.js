@@ -31,6 +31,9 @@ const App = () => {
           enabled: true,
           speed: 350
         },
+      },
+      toolbar: {
+        show: false,
       }
     },
     title: {
