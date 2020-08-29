@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/apex-chart-candlesticks/static/js/main.9e891def.chunk.js",
+    "main.js.map": "/apex-chart-candlesticks/static/js/main.9e891def.chunk.js.map",
+    "runtime-main.js": "/apex-chart-candlesticks/static/js/runtime-main.8fdf306b.js",
+    "runtime-main.js.map": "/apex-chart-candlesticks/static/js/runtime-main.8fdf306b.js.map",
+    "static/js/2.3039479a.chunk.js": "/apex-chart-candlesticks/static/js/2.3039479a.chunk.js",
+    "static/js/2.3039479a.chunk.js.map": "/apex-chart-candlesticks/static/js/2.3039479a.chunk.js.map",
+    "index.html": "/apex-chart-candlesticks/index.html",
+    "precache-manifest.9f11f9d389afb72d84abdcbee0cac45b.js": "/apex-chart-candlesticks/precache-manifest.9f11f9d389afb72d84abdcbee0cac45b.js",
+    "service-worker.js": "/apex-chart-candlesticks/service-worker.js",
+    "static/js/2.3039479a.chunk.js.LICENSE.txt": "/apex-chart-candlesticks/static/js/2.3039479a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8fdf306b.js",
+    "static/js/2.3039479a.chunk.js",
+    "static/js/main.9e891def.chunk.js"
+  ]
+}
