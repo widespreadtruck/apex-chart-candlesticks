@@ -6,8 +6,8 @@ import Button from './Button';
 const styles = {
   loader: {
     "width": "100vw",
-    "text-align": "center",
-    "margin-top": 100,
+    "textAlign": "center",
+    "marginTop": "150px",
   }
 }
 const App = () => {
@@ -83,10 +83,10 @@ const App = () => {
         }
       );
     };
-
+    // console.log(dataArr);
     setSeries(dataArr);
   };
-
+  
   useEffect( () => {
     getCoinData(periodToDisplay);
   }, [periodToDisplay]);
@@ -103,8 +103,8 @@ const App = () => {
         <div id="chart">
         {
           isLoading
-              ? <Loader style={styles.loader} type="ThreeDots" color="#009FFF" height={80} width={80} />
-          : <ReactApexChart
+            ? <Loader style={styles.loader} type="ThreeDots" color="#009FFF" height={80} width={80} />
+            : <ReactApexChart
             options={options}
             series={series}
             type="candlestick"
